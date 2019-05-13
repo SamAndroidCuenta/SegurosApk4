@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Alfa Seguros</string>
+    <string name="label_Registrarse">Registrarse</string>
+    <string name="label_iniciar_sesion">Iniciar Sesion</string>
+    <string name="title_activity_navigation__main">Alfa Seguros</string>
+    <string name="navigation_drawer_open">Alfa Segurosdrawer</string>
+    <string name="navigation_drawer_close">Alfa Seguros</string>
+    <string name="nav_header_title">Alfa Seguros</string>
+    <string name="nav_header_subtitle">Alfaseguros.com</string>
+    <string name="nav_header_desc">Alfa Seguros</string>
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Alfa Seguros</string>
+    <string name="title_activity_sub_menu_hogar">Alfa Seguros</string>
+    <string name="title_activity_sub_menu_vehiculos">Alfa Seguros</string>
+    <string name="title_activity_cap_datos">Alfa Seguros</string>
+    <string name="sugerencias">Mientras la ayuda llega,
+Por fabor, conserve la calma.
+Hemos recibido de manera instantanea
+en nuestra central de operadores
+su solicitud,
+en unos minutos estara recibiendo
+la ayuda solicitada.
+
+Le recomendamos
+que este al tanto de nuestra llamada
+ya que en breve nos comunicaremos con usted.</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jteniapps.SegurosApk1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ClasseMensajeEnvioDatos"></activity>
+        <activity
+            android:name=".CapDatos"
+            android:label="@string/title_activity_cap_datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubMenuVehiculos"
+            android:label="@string/title_activity_sub_menu_vehiculos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubMenuHogar"
+            android:label="@string/title_activity_sub_menu_hogar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navigation_MainActivity"
+            android:label="@string/title_activity_navigation__main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

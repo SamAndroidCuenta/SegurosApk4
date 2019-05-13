@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/imgbomberos"
+            android:title="Llamar a Bomberos " />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/imgcruzroja"
+            android:title="Llamar a Cruz roja" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/imgpolicia"
+            android:title="Llamar a Policia" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/imgllamadafamiliar"
+            android:title="Llamar a Numero Familiar" />
+    </group>
+
+    <item android:title="Comunicaciones con Alfa Seguros">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/imgboletin"
+                android:title="Boletin informativo" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/imgergenciauno"
+            android:title="Call Center" />
+        </menu>
+    </item>
+
+</menu>
